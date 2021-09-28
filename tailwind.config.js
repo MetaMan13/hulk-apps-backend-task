@@ -12,6 +12,21 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'hulk-green': {
+                    DEFAULT: '#00A9A2',
+                    '50': '#8FFFFA',
+                    '100': '#76FFF9',
+                    '200': '#43FFF7',
+                    '300': '#10FFF5',
+                    '400': '#00DCD3',
+                    '500': '#00A9A2',
+                    '600': '#007671',
+                    '700': '#004340',
+                    '800': '#00100F',
+                    '900': '#000000'
+                },
+            }
         },
     },
 
