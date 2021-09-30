@@ -41,6 +41,3 @@
     DURATION TO COMPLETE TASK:
 
     ~ 4-5 hours ( NOTE: I was really bussy with work since I manage alot of projects that last from may till now an into the future )
-
-    I am a very dedicated developer and I love to make things happen. I feel I would be an great addition to the team because I am fresh and hungry for knowledge. Every day I give my best to write the best code
-    possible and to learn something new. If I see something that could be refactored and that refactoring is the hard and long way I am glad to take the challenge on and do it right. Hope you are satisfied with the result and I wish you all the best :D
