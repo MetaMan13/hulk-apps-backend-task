@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <img src="{{ asset('storage/hulk-apps-logo-nav.jpg') }}" class="h-14">
             </a>
         </x-slot>
 
@@ -16,21 +16,21 @@
             <div>
                 <x-label for="name" :value="__('Name')" />
 
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                <x-input id="name" class="block mt-1 w-full focus:ring-hulk-green-50 focus:border-hulk-green" type="text" name="name" :value="old('name')" required autofocus />
             </div>
 
             <!-- Email Address -->
             <div class="mt-4">
                 <x-label for="email" :value="__('Email')" />
 
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-input id="email" class="block mt-1 w-full focus:ring-hulk-green-50 focus:border-hulk-green" type="email" name="email" :value="old('email')" required />
             </div>
 
             <!-- Password -->
             <div class="mt-4">
                 <x-label for="password" :value="__('Password')" />
 
-                <x-input id="password" class="block mt-1 w-full"
+                <x-input id="password" class="block mt-1 w-full focus:ring-hulk-green-50 focus:border-hulk-green"
                                 type="password"
                                 name="password"
                                 required autocomplete="new-password" />
@@ -40,7 +40,7 @@
             <div class="mt-4">
                 <x-label for="password_confirmation" :value="__('Confirm Password')" />
 
-                <x-input id="password_confirmation" class="block mt-1 w-full"
+                <x-input id="password_confirmation" class="block mt-1 w-full focus:ring-hulk-green-50 focus:border-hulk-green"
                                 type="password"
                                 name="password_confirmation" required />
             </div>
@@ -50,7 +50,7 @@
                     {{ __('Already registered?') }}
                 </a>
 
-                <x-button class="ml-4">
+                <x-button class="ml-4 bg-hulk-green hover:bg-hulk-green-600">
                     {{ __('Register') }}
                 </x-button>
             </div>

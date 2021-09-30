@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <img src="{{ asset('storage/hulk-apps-logo-nav.jpg') }}" class="h-14">
             </a>
         </x-slot>
 
@@ -21,7 +21,7 @@
                 @csrf
 
                 <div>
-                    <x-button>
+                    <x-button class="bg-hulk-green hover:bg-hulk-green-600">
                         {{ __('Resend Verification Email') }}
                     </x-button>
                 </div>
