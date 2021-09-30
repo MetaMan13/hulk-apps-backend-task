@@ -24,3 +24,23 @@
 
         NOTE: Policies is also a viable option to handle and manage premissions for posts
         Can the user update or delete that specific post
+
+    4. Created CRUD for user dashboard posts with custom requests and validation of "hasComments" when trying to delete a post with basic flash messages
+
+    5. Created the homepage post listing with pagination and identifiers "edit and delete" buttons if the post is owned by the user
+
+    6. Created option to create a comment on a post and also an identifier to delete a comment if it is owned by the logged in user
+
+
+    IDEAS, ADDITIONS:
+
+        Defenitely a better layout, queues for emails and intense tasks, events + listeners + notifications for maybe when a user comments on the post with a bell icon that displays the notification.
+        User profile CRUD [ profile image, interests ]
+        Post categories and maybe a search by category and posts name
+
+    DURATION TO COMPLETE TASK:
+
+    ~ 4-5 hours ( NOTE: I was really bussy with work since I manage alot of projects that last from may till now an into the future )
+
+    I am a very dedicated developer and I love to make things happen. I feel I would be an great addition to the team because I am fresh and hungry for knowledge. Every day I give my best to write the best code
+    possible and to learn something new. If I see something that could be refactored and that refactoring is the hard and long way I am glad to take the challenge on and do it right. Hope you are satisfied with the result and I wish you all the best :D
