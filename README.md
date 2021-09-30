@@ -13,8 +13,6 @@
 
 ### Task completion process
 
-    NOTE: I had really no time to complete this. At my current job I am managing 5+ projects alone ( fontend,backend,deployment ( cron jobs etc.)). I hope this will be enough of a showcase what I can do
-
     1. Laravel new app + composer require laravel breeze + php artisan breeze:install
         
         I would usualy queue the emails but I didn't want to overcomplicate things installation and review wise
