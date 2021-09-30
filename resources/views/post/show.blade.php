@@ -99,7 +99,7 @@
                                         </div>
                                     </div>
 
-                                    @if ($post->user_id === auth()->user()->id)
+                                    @if (auth()->user() && $post->user_id === auth()->user()->id)
                                         <div class="flex items-start gap-4">
                                             <a href="{{ route('dashboard.post.edit', ['post' => $post]) }}" class="bg-hulk-green hover:bg-hulk-green-600 text-white py-2 px-4 rounded-md">Edit Post</a>
 
@@ -155,7 +155,7 @@
                                                 </div>
                                             </div>
 
-                                            @if ($comment->user_id === auth()->user()->id)
+                                            @if (auth()->user() && $comment->user_id === auth()->user()->id)
                                                 <form action="{{ route('comment.destroy', ['comment' => $comment->id]) }}" method="POST" class="flex items-center">
                                                     @csrf
                                                     @method('DELETE')
