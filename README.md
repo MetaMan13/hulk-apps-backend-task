@@ -38,4 +38,4 @@
 
     DURATION TO COMPLETE TASK:
 
-    ~ 4-5 hours ( NOTE: I was really bussy with work since I manage alot of projects that last from may till now an into the future )
+    ~ 4-5 hours 
